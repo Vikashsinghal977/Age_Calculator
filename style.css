@@ -5,19 +5,20 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(to right, #aa7e66, #feb47b);
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(35, 35, 138) 43%, rgba(0,212,255,1) 100%);
 }
 .contaner{
     width: 600px;
     margin: 100px auto;
-    background-color: white;
+    background-color: rgb(117, 130, 189);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, .2);
 }
 h1{
     text-align: center;
-    color: gray;
+    color: rgb(7, 5, 5);
 }
 .form-group{
     margin-bottom: 20px;
@@ -25,7 +26,7 @@ h1{
 label{
     display: block;
     margin-bottom: 5px;
-    color: #333;
+    color: #120f0f;
     font-weight: 700px;
 }
 input[type="date"]{

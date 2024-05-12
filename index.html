@@ -12,14 +12,14 @@
         <h1>Age Calculator</h1>
         <form id="agecalculater">
             <div class="form-group">
-                <label for="birthday">Enter your birthday:</label>
-                <input type="date" id="birthday" placeholder="dd-mm-yyyy" required>
+                <label for="birthday"><b>Enter your birthday:</b></label>
+                <input type="date" id="birthday" placeholder="DD-MM-YYYY" required>
             </div>
             <button type="submit" class="btn">Calculat Age</button>
         </form>
-        <div class="result-contaner">
-            <div class="result">
-                <div class="result-item">
+        <div class="result-contaner" id="results">
+            <div class="result" id="result">
+                <!-- <div class="result-item">
                     <h3>Age:</h3>
                     <p>Age in years</p>
                 </div>
@@ -35,7 +35,7 @@
                     <h3>Days Passed:</h3>
                     <p>Days in years</p>
                 </div>
-                <!-- <div class="result-item">
+                <div class="result-item">
                     <h3>Hours Passed:</h3>
                     <p>Hours in years</p>
                 </div>
